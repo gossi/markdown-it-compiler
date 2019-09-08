@@ -1,0 +1,26 @@
+{
+  "name": "markdown-it-compiler",
+  "version": "0.0.0",
+  "description": "Easy configurable markdown-it compiler",
+  "homepage": "https://github.com/gossi/markdown-it-compiler",
+  "author": {
+    "name": "Thomas Gossmann",
+    "url": "https://gos.si"
+  },
+  "license": "MIT",
+  "keywords": [
+    "markdown-it",
+    "configuration",
+    "compiler"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gossi/markdown-it-compiler.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "front-matter": "^3.0.2",
+    "markdown-it": "^9.1.0",
+    "markdown-toc": "^1.2.0"
+  }
+}
