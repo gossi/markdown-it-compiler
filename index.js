@@ -30,17 +30,18 @@ class MarkdownItCompiler {
   }
 
   compile(source) {
-    const content = fm(source);
+    const doc = fm(source);
 
-    let html = this.md.render(content.body);
+    let html = this.md.render(doc.body);
 
-    content.html = html;
-    content.toc = toc(content.body).json;
+    doc.html = html;
+    doc.toc = toc(doc.body).json;
 
     if (this.config.format) {
-      html = this.config.format(content);
+      doc.html = this.config.format(doc);
     }
-    return html;
+
+    return doc;
   }
 }
 

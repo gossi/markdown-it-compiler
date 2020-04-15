@@ -18,9 +18,13 @@
     "url": "https://github.com/gossi/markdown-it-compiler.git"
   },
   "main": "index.js",
+  "typings": "index.d.ts",
   "dependencies": {
-    "front-matter": "^3.0.2",
-    "markdown-it": "^9.1.0",
+    "front-matter": "^3.1.0",
+    "markdown-it": "^10.0.0",
     "markdown-toc": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^10.0.0"
   }
 }

@@ -15,7 +15,8 @@ Instantiate an instance of the compiler and sequentially compile markdown to htm
 ```js
 const config = {...};
 const compiler = new MarkdownItCompiler(config);
-const html = compiler.compile(mardownString);
+const doc = compiler.compile(mardownString);
+const content = doc.html;
 ```
 
 The config as follows:
