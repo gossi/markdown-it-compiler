@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-compiler",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Easy configurable markdown-it compiler",
   "homepage": "https://github.com/gossi/markdown-it-compiler",
   "author": {
